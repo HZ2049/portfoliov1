@@ -731,6 +731,19 @@ color: white;
           transform: rotate(45deg);
   z-index: -1;
 }
+.blogfooter_bg{
+  position: relative;
+  width: 100%;
+  height: auto;
+  
+  overflow: hidden;
+  margin: 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(90deg);
+  z-index: -1;
+
+}
+
 
 .gallery_section .gallery_container .gallery_bg img {
   width: 100%;
@@ -804,15 +817,15 @@ color: white;
 .blog_section .blog_container {
   position: relative;
   max-width: 1500px;
-  margin-top: 300px;
+  margin-top: 50px;
 }
 
 .blog_section .blog_container .blog_bg {
   position: absolute;
   width: 100%;
   top: 10%;
-  margin-left: 0;
-  -webkit-transform: rotate(0deg);
+  margin: 0;
+  -webkit-transform: rotate(45deg);
           transform: rotate(0deg);
   z-index: -1;
 }
@@ -822,8 +835,8 @@ color: white;
 }
 
 .blog_section .blog_box {
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .blog_section .box {
